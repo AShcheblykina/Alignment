@@ -17,6 +17,7 @@ public class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMaxMid() {
         StatisticsService service = new StatisticsService();
@@ -29,6 +30,7 @@ public class StatisticsServiceTest {
         assertEquals(expected, actual);
 
     }
+
     @Test
     void findMaxEnd() {
         StatisticsService service = new StatisticsService();
